@@ -70,11 +70,16 @@ body {
 .sub-title {
   font-weight: bold;
   font-size: 15px;
-  color: rgb(34, 175, 223);
+  color: lightcoral;
 }
 
 .line {
   border-right: 1px solid var(--lineColor);
+}
+
+.contact-info {
+  display: flex;
+  gap: 5px;
 }
 
 .contact {
@@ -82,6 +87,16 @@ body {
   color: #505050;
   font-weight: bold;
   border-bottom: 1px solid #c0c0c0;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+.social a {
+  text-decoration: none;
+  color: black;
 }
 
 @media (max-width: 800px) {
